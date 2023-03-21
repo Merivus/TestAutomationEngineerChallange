@@ -1,0 +1,3 @@
+# Project exclude paths
+/TrelloApiProject/TrelloApiProject/target/
+/TrelloUICases/target/

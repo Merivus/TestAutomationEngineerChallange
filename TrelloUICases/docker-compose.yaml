@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+  web-app:
+    container_name: web-app
+    image: gauge:latest
+    volumes:
+      - /c/Users/merivus/IdeaProjects/TrelloUICases/:/app
+    command:
+      - gauge
+      - run
+      - specs
+    networks:
+      - automated-ui-tests
+  # Include any other components of your application here
+
+  selenium-hub:
+    container_name: selenium-hub
+    image: selenium/hub:3.141.59-neon
+    expose:
+      - 4444
+    environment:
+      - GRID_TIMEOUT=120000
+      - GRID_BROWSER_TIMEOUT=120000
+    networks:
+      - automated-ui-tests
+
+  chrome-node:
+    container_name: chrome-node
+    image: selenium/node-chrome:3.141.59-neon
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+    networks:
+      - automated-ui-tests
+
+networks:
+  automated-ui-tests:
+    name: automated-ui-tests

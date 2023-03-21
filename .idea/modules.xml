@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/TestAutomationChallange.iml" filepath="$PROJECT_DIR$/.idea/TestAutomationChallange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrelloApiProject/TrelloApiProject/TrelloApiProject.iml" filepath="$PROJECT_DIR$/TrelloApiProject/TrelloApiProject/TrelloApiProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrelloUICases/TrelloUICases.iml" filepath="$PROJECT_DIR$/TrelloUICases/TrelloUICases.iml" />
+    </modules>
+  </component>
+</project>

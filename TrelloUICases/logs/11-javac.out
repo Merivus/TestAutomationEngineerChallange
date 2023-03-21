@@ -1,0 +1,455 @@
+src/test/java/driver/Driver.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/driver/Driver.java:10: error: cannot find symbol
+    public static WebDriver webDriver;
+                  ^
+  symbol:   class WebDriver
+  location: class Driver
+src/test/java/driver/DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+import io.github.bonigarcia.wdm.WebDriverManager;
+                               ^
+src/test/java/driver/DriverFactory.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/driver/DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/test/java/driver/DriverFactory.java:6: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src/test/java/driver/DriverFactory.java:7: error: package org.openqa.selenium.firefox does not exist
+import org.openqa.selenium.firefox.FirefoxDriver;
+                                  ^
+src/test/java/driver/DriverFactory.java:8: error: package org.openqa.selenium.ie does not exist
+import org.openqa.selenium.ie.InternetExplorerDriver;
+                             ^
+src/test/java/driver/DriverFactory.java:16: error: cannot find symbol
+    public static WebDriver getDriver() {
+                  ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src/test/java/pageModels/BaseModel.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/pageModels/BaseModel.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.JavascriptExecutor;
+                          ^
+src/test/java/pageModels/BaseModel.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src/test/java/pageModels/BaseModel.java:7: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src/test/java/pageModels/BaseModel.java:8: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src/test/java/pageModels/BaseModel.java:15: error: cannot find symbol
+    WebDriverWait wait = new WebDriverWait(webDriver, 30);
+    ^
+  symbol:   class WebDriverWait
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:17: error: cannot find symbol
+    public WebElement findElement(By by) {
+                                  ^
+  symbol:   class By
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:17: error: cannot find symbol
+    public WebElement findElement(By by) {
+           ^
+  symbol:   class WebElement
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:21: error: cannot find symbol
+    public void sendKeys(By by, String text) {
+                         ^
+  symbol:   class By
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:26: error: cannot find symbol
+    public void clickElement(By by) {
+                             ^
+  symbol:   class By
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:32: error: cannot find symbol
+    public void clickElement(WebElement element) {
+                             ^
+  symbol:   class WebElement
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:37: error: cannot find symbol
+    public boolean isElementDisplayed(By by) {
+                                      ^
+  symbol:   class By
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:46: error: cannot find symbol
+    public boolean isElementClickable(By by) {
+                                      ^
+  symbol:   class By
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:55: error: cannot find symbol
+    public boolean isElementVisible(By by) {
+                                    ^
+  symbol:   class By
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:64: error: cannot find symbol
+    public String getText(By by) {
+                          ^
+  symbol:   class By
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:70: error: cannot find symbol
+    public String getElementValue(By by, String elementValue) {
+                                  ^
+  symbol:   class By
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:74: error: cannot find symbol
+    public List<WebElement> findElements(By by) {
+                                         ^
+  symbol:   class By
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:74: error: cannot find symbol
+    public List<WebElement> findElements(By by) {
+                ^
+  symbol:   class WebElement
+  location: class BaseModel
+src/test/java/pageModels/BoardModel.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/pageModels/BoardModel.java:8: error: cannot find symbol
+    public static By btnCreateBoard = By.xpath("//div[@class='board-tile mod-add']");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:10: error: cannot find symbol
+    public static By btnBoardBackground = By.xpath("//div[@id='background-picker']/ul/li[5]");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:11: error: cannot find symbol
+    public static By chkVisibility = By.xpath("//div/div[contains(@id,'visibility')]");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:13: error: cannot find symbol
+    public static By txtBoardTitle = By.xpath("//div//input[contains(@class, 'textfield')]");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:15: error: cannot find symbol
+    public static By btnCreate = By.xpath("//div//button[@data-testid='create-board-submit-button']");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:18: error: cannot find symbol
+    public static By btnFavorites = By.xpath("//div/a[contains(@class, 'board-header-star')]");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:21: error: cannot find symbol
+    public static By btnDetails = By.xpath("//div/button[@aria-label='Show menu']");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:24: error: cannot find symbol
+    public static By btnMore = By.xpath("//li[@class='board-menu-navigation-item'][4]");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:27: error: cannot find symbol
+    public static By btnCloseBoard = By.xpath("//li/a[contains(@class, 'close-board')]");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:28: error: cannot find symbol
+    public static By btnClose = By.xpath("//input[@value='Close']");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:31: error: cannot find symbol
+    public static By btnCloseAllBoards = By.xpath("//div/button[contains(@class, 'view-all-closed-boards-button')]");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:32: error: cannot find symbol
+    public static By btnDeleteBoard = By.xpath("//div/button[@data-testid='close-board-delete-board-button'][1]");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:33: error: cannot find symbol
+    public static By btnDelete = By.xpath("//div/button[@data-testid='close-board-delete-board-confirm-button']");
+                  ^
+  symbol:   class By
+  location: class BoardModel
+src/test/java/pageModels/HomeModel.java:3: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+src/test/java/pageModels/HomeModel.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/pageModels/HomeModel.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.Keys;
+                          ^
+src/test/java/pageModels/HomeModel.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src/test/java/pageModels/HomeModel.java:11: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src/test/java/pageModels/HomeModel.java:12: error: package org.openqa.selenium.support does not exist
+import org.openqa.selenium.support.FindBy;
+                                  ^
+src/test/java/pageModels/HomeModel.java:15: error: cannot find symbol
+    public static By btnLogin = By.xpath("//*/a[contains(@class, 'Buttonsstyles')][1]");
+                  ^
+  symbol:   class By
+  location: class HomeModel
+src/test/java/pageModels/ListModel.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/pageModels/ListModel.java:7: error: cannot find symbol
+    public static By btnList = By.xpath("//div/form/a[contains(@class, 'open-add-list')]/span/span");
+                  ^
+  symbol:   class By
+  location: class ListModel
+src/test/java/pageModels/ListModel.java:9: error: cannot find symbol
+    public static By txtListName = By.xpath("//div/form/input[@class='list-name-input'][1]");
+                  ^
+  symbol:   class By
+  location: class ListModel
+src/test/java/pageModels/ListModel.java:11: error: cannot find symbol
+    public static By btnAddList = By.xpath("//div/input[@value='Add list']");
+                  ^
+  symbol:   class By
+  location: class ListModel
+src/test/java/pageModels/LoginModel.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/pageModels/LoginModel.java:4: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+src/test/java/pageModels/LoginModel.java:8: error: cannot find symbol
+    public static By txtEmail = By.xpath("//*/input[@id='user']");
+                  ^
+  symbol:   class By
+  location: class LoginModel
+src/test/java/pageModels/LoginModel.java:9: error: cannot find symbol
+    public static By btnContinue = By.xpath("//input[@id='login']");
+                  ^
+  symbol:   class By
+  location: class LoginModel
+src/test/java/pageModels/LoginModel.java:10: error: cannot find symbol
+    public static By txtPassword = By.id("password");
+                  ^
+  symbol:   class By
+  location: class LoginModel
+src/test/java/pageModels/LoginModel.java:11: error: cannot find symbol
+    public static By btnLogin = By.id("login-submit");
+                  ^
+  symbol:   class By
+  location: class LoginModel
+src/test/java/pageModels/LoginModel.java:12: error: cannot find symbol
+    public static By txtTrello = By.xpath("//span[@data-testid='home-team-tab-name']");
+                  ^
+  symbol:   class By
+  location: class LoginModel
+src/test/java/pageModels/LoginModel.java:13: error: cannot find symbol
+    public static By txtUnsuccessfullLoginMessage = By.id("//span/a[text()]']");
+                  ^
+  symbol:   class By
+  location: class LoginModel
+src/test/java/tests/BaseTest.java:4: error: package org.apache.log4j does not exist
+import org.apache.log4j.Logger;
+                       ^
+src/test/java/tests/BaseTest.java:7: error: cannot find symbol
+    public static Logger log = Logger.getLogger(BaseTest.class);
+                  ^
+  symbol:   class Logger
+  location: class BaseTest
+src/test/java/driver/DriverFactory.java:23: error: cannot find symbol
+                WebDriverManager.iedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:24: error: cannot find symbol
+                return new InternetExplorerDriver();
+                           ^
+  symbol:   class InternetExplorerDriver
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:26: error: cannot find symbol
+                WebDriverManager.firefoxdriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:27: error: cannot find symbol
+                return new FirefoxDriver();
+                           ^
+  symbol:   class FirefoxDriver
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:30: error: cannot find symbol
+                WebDriverManager.chromedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:32: error: cannot find symbol
+                ChromeOptions options = new ChromeOptions();
+                ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:32: error: cannot find symbol
+                ChromeOptions options = new ChromeOptions();
+                                            ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:38: error: cannot find symbol
+                return new ChromeDriver(options);
+                           ^
+  symbol:   class ChromeDriver
+  location: class DriverFactory
+src/test/java/pageModels/BaseModel.java:15: error: cannot find symbol
+    WebDriverWait wait = new WebDriverWait(webDriver, 30);
+                             ^
+  symbol:   class WebDriverWait
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:22: error: cannot find symbol
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(by));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:27: error: cannot find symbol
+        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:28: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(by));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:33: error: cannot find symbol
+        wait.until(ExpectedConditions.visibilityOf(element));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:34: error: cannot find symbol
+        wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:48: error: cannot find symbol
+            wait.until(ExpectedConditions.elementToBeClickable(by));
+                       ^
+  symbol:   variable ExpectedConditions
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:57: error: cannot find symbol
+            wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+                       ^
+  symbol:   variable ExpectedConditions
+  location: class BaseModel
+src/test/java/pageModels/BaseModel.java:66: error: cannot find symbol
+        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+                   ^
+  symbol:   variable ExpectedConditions
+  location: class BaseModel
+src/test/java/pageModels/BoardModel.java:8: error: cannot find symbol
+    public static By btnCreateBoard = By.xpath("//div[@class='board-tile mod-add']");
+                                      ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:10: error: cannot find symbol
+    public static By btnBoardBackground = By.xpath("//div[@id='background-picker']/ul/li[5]");
+                                          ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:11: error: cannot find symbol
+    public static By chkVisibility = By.xpath("//div/div[contains(@id,'visibility')]");
+                                     ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:13: error: cannot find symbol
+    public static By txtBoardTitle = By.xpath("//div//input[contains(@class, 'textfield')]");
+                                     ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:15: error: cannot find symbol
+    public static By btnCreate = By.xpath("//div//button[@data-testid='create-board-submit-button']");
+                                 ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:18: error: cannot find symbol
+    public static By btnFavorites = By.xpath("//div/a[contains(@class, 'board-header-star')]");
+                                    ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:21: error: cannot find symbol
+    public static By btnDetails = By.xpath("//div/button[@aria-label='Show menu']");
+                                  ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:24: error: cannot find symbol
+    public static By btnMore = By.xpath("//li[@class='board-menu-navigation-item'][4]");
+                               ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:27: error: cannot find symbol
+    public static By btnCloseBoard = By.xpath("//li/a[contains(@class, 'close-board')]");
+                                     ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:28: error: cannot find symbol
+    public static By btnClose = By.xpath("//input[@value='Close']");
+                                ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:31: error: cannot find symbol
+    public static By btnCloseAllBoards = By.xpath("//div/button[contains(@class, 'view-all-closed-boards-button')]");
+                                         ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:32: error: cannot find symbol
+    public static By btnDeleteBoard = By.xpath("//div/button[@data-testid='close-board-delete-board-button'][1]");
+                                      ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/BoardModel.java:33: error: cannot find symbol
+    public static By btnDelete = By.xpath("//div/button[@data-testid='close-board-delete-board-confirm-button']");
+                                 ^
+  symbol:   variable By
+  location: class BoardModel
+src/test/java/pageModels/HomeModel.java:15: error: cannot find symbol
+    public static By btnLogin = By.xpath("//*/a[contains(@class, 'Buttonsstyles')][1]");
+                                ^
+  symbol:   variable By
+  location: class HomeModel
+src/test/java/pageModels/ListModel.java:7: error: cannot find symbol
+    public static By btnList = By.xpath("//div/form/a[contains(@class, 'open-add-list')]/span/span");
+                               ^
+  symbol:   variable By
+  location: class ListModel
+src/test/java/pageModels/ListModel.java:9: error: cannot find symbol
+    public static By txtListName = By.xpath("//div/form/input[@class='list-name-input'][1]");
+                                   ^
+  symbol:   variable By
+  location: class ListModel
+src/test/java/pageModels/ListModel.java:11: error: cannot find symbol
+    public static By btnAddList = By.xpath("//div/input[@value='Add list']");
+                                  ^
+  symbol:   variable By
+  location: class ListModel
+src/test/java/pageModels/LoginModel.java:8: error: cannot find symbol
+    public static By txtEmail = By.xpath("//*/input[@id='user']");
+                                ^
+  symbol:   variable By
+  location: class LoginModel
+src/test/java/pageModels/LoginModel.java:9: error: cannot find symbol
+    public static By btnContinue = By.xpath("//input[@id='login']");
+                                   ^
+  symbol:   variable By
+  location: class LoginModel
+src/test/java/pageModels/LoginModel.java:10: error: cannot find symbol
+    public static By txtPassword = By.id("password");
+                                   ^
+  symbol:   variable By
+  location: class LoginModel
+src/test/java/pageModels/LoginModel.java:11: error: cannot find symbol
+    public static By btnLogin = By.id("login-submit");
+                                ^
+  symbol:   variable By
+  location: class LoginModel
+100 errors

@@ -1,0 +1,102 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 5879milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 5879"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.clickDeleteBoardButton' and 'tests.BoardTest.clickDeleteBoardButton'"}
+{"logLevel":"debug","message":"Found Click to Delete board  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.clickBoardCreate' and 'tests.BoardTest.clickBoardCreate'"}
+{"logLevel":"debug","message":"Found Click create a board button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.selectBoardVisibility' and 'tests.BoardTest.selectBoardVisibility'"}
+{"logLevel":"debug","message":"Found Select the Board visibility in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.HomeTest.goToUrl' and 'tests.HomeTest.goToUrl'"}
+{"logLevel":"debug","message":"Found Enter {} Trello Home Page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.checkSuccessMainPageAfterLogin' and 'tests.LoginTest.checkSuccessMainPageAfterLogin'"}
+{"logLevel":"debug","message":"Found It shows success login in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.checkUnsuccessfullyMainPageAfterLogin' and 'tests.LoginTest.checkUnsuccessfullyMainPageAfterLogin'"}
+{"logLevel":"debug","message":"Found It shows failed login in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.clickCreateTheBoardButton' and 'tests.BoardTest.clickCreateTheBoardButton'"}
+{"logLevel":"debug","message":"Found Click to Create new board button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.setEmail' and 'tests.LoginTest.setEmail'"}
+{"logLevel":"debug","message":"Found Set email {} in login page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.setPassword' and 'tests.BoardTest.setPassword'"}
+{"logLevel":"debug","message":"Found Set board title {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.setPassword' and 'tests.LoginTest.setPassword'"}
+{"logLevel":"debug","message":"Found Set password {} in login page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.clickMoreButton' and 'tests.BoardTest.clickMoreButton'"}
+{"logLevel":"debug","message":"Found Click more button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.clickContinue' and 'tests.LoginTest.clickContinue'"}
+{"logLevel":"debug","message":"Found Click to Continue button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.clickAllClosedBoardsButton' and 'tests.BoardTest.clickAllClosedBoardsButton'"}
+{"logLevel":"debug","message":"Found View all of the closed boards in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.LoginTest.clickLoginButton' and 'tests.LoginTest.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Click to Log In button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.clickDetailsButton' and 'tests.BoardTest.clickDetailsButton'"}
+{"logLevel":"debug","message":"Found Click details button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.selectBoardBackground' and 'tests.BoardTest.selectBoardBackground'"}
+{"logLevel":"debug","message":"Found Select the Board background in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ListTest.clickList' and 'tests.ListTest.clickList'"}
+{"logLevel":"debug","message":"Found Click to Add a list button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ListTest.clickAddList' and 'tests.ListTest.clickAddList'"}
+{"logLevel":"debug","message":"Found Add your list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.HomeTest.clickToLoginButton' and 'tests.HomeTest.clickToLoginButton'"}
+{"logLevel":"debug","message":"Found Click to Login Button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.ListTest.setListName' and 'tests.ListTest.setListName'"}
+{"logLevel":"debug","message":"Found Add a list name {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.clickDeleteButton' and 'tests.BoardTest.clickDeleteButton'"}
+{"logLevel":"debug","message":"Found Delete the board completely in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.clickFavoritesButton' and 'tests.BoardTest.clickFavoritesButton'"}
+{"logLevel":"debug","message":"Found Add board to favorite list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.BoardTest.clickCloseBoardButton' and 'tests.BoardTest.clickCloseBoardButton'"}
+{"logLevel":"debug","message":"Found Close the board in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tView all of the closed boards : public void clickAllClosedBoardsButton()"}
+{"logLevel":"debug","message":"\tSet email {} in login page : public void setEmail(String email)"}
+{"logLevel":"debug","message":"\tClose the board : public void clickCloseBoardButton()"}
+{"logLevel":"debug","message":"\tSet password {} in login page : public void setPassword(String password)"}
+{"logLevel":"debug","message":"\tClick to Log In button : public void clickLoginButton()"}
+{"logLevel":"debug","message":"\tEnter {} Trello Home Page : public void goToUrl(String url) throws Exception"}
+{"logLevel":"debug","message":"\tClick to Create new board button : public void clickCreateTheBoardButton()"}
+{"logLevel":"debug","message":"\tClick more button : public void clickMoreButton()"}
+{"logLevel":"debug","message":"\tSelect the Board visibility : public void selectBoardVisibility()"}
+{"logLevel":"debug","message":"\tAdd board to favorite list : public void clickFavoritesButton()"}
+{"logLevel":"debug","message":"\tAdd a list name {} : public void setListName(String listName) throws InterruptedException"}
+{"logLevel":"debug","message":"\tDelete the board completely : public void clickDeleteButton()"}
+{"logLevel":"debug","message":"\tSelect the Board background : public void selectBoardBackground()"}
+{"logLevel":"debug","message":"\tClick to Add a list button : public void clickList()"}
+{"logLevel":"debug","message":"\tAdd your list : public void clickAddList()"}
+{"logLevel":"debug","message":"\tClick to Login Button : public void clickToLoginButton()"}
+{"logLevel":"debug","message":"\tClick to Delete board  : public void clickDeleteBoardButton()"}
+{"logLevel":"debug","message":"\tClick to Continue button : public void clickContinue()"}
+{"logLevel":"debug","message":"\tClick details button : public void clickDetailsButton()"}
+{"logLevel":"debug","message":"\tClick create a board button : public void clickBoardCreate()"}
+{"logLevel":"debug","message":"\tIt shows failed login : public void checkUnsuccessfullyMainPageAfterLogin()"}
+{"logLevel":"debug","message":"\tSet board title {} : public void setPassword(String boardTitle)"}
+{"logLevel":"debug","message":"\tIt shows success login : public void checkSuccessMainPageAfterLogin()"}
+{"logLevel":"debug","message":"started gRPC server on port 51659"}
+{"logLevel":"info","message":"Listening on port:51659"}
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 46566
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 21, 2023 9:15:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Enter {} Trello Home Page' using 'class tests.HomeTest.goToUrl"}
+{"logLevel":"debug","message":"Executing 'Click to Login Button' using 'class tests.HomeTest.clickToLoginButton"}
+{"logLevel":"debug","message":"Executing 'Set email {} in login page' using 'class tests.LoginTest.setEmail"}
+{"logLevel":"debug","message":"Executing 'Click to Continue button' using 'class tests.LoginTest.clickContinue"}
+{"logLevel":"debug","message":"Executing 'Set password {} in login page' using 'class tests.LoginTest.setPassword"}
+{"logLevel":"debug","message":"Executing 'Click to Log In button' using 'class tests.LoginTest.clickLoginButton"}
+{"logLevel":"debug","message":"Executing 'It shows success login' using 'class tests.LoginTest.checkSuccessMainPageAfterLogin"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
