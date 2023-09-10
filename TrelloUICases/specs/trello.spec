@@ -9,7 +9,7 @@ Case 1 - Success Login
 * Click to Login Button
 * Set email "sinemmerveyilmaztestmail@gmail.com" in login page
 * Click to Continue button
-* Set password "Ankara1." in login page
+* Set password "***" in login page
 * Click to Log In button
 * It shows success login
 
@@ -29,7 +29,7 @@ Case 3 - Create & Delete a Board
 * Click to Login Button
 * Set email "sinemmerveyilmaztestmail@gmail.com" in login page
 * Click to Continue button
-* Set password "Ankara1." in login page
+* Set password "***" in login page
 * Click to Log In button
 * It shows success login
 * Click to Create new board button
@@ -48,7 +48,7 @@ Case 4 - Check Deleted Board & Delete Board Completely
 * Click to Login Button
 * Set email "sinemmerveyilmaztestmail@gmail.com" in login page
 * Click to Continue button
-* Set password "Ankara1." in login page
+* Set password "***" in login page
 * Click to Log In button
 * It shows success login
 * View all of the closed boards
@@ -61,7 +61,7 @@ Case 5 - Create List & Configure Card In List
 * Click to Login Button
 * Set email "sinemmerveyilmaztestmail@gmail.com" in login page
 * Click to Continue button
-* Set password "Ankara1." in login page
+* Set password "***" in login page
 * Click to Log In button
 * It shows success login
 * Click to Create new board button
